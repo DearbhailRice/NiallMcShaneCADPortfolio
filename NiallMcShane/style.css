@@ -1,0 +1,50 @@
+    body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#niallPhoto{
+	width:30%;
+    height:auto;
+	margin-left:7%;
+}
+#bio{
+	word-wrap: break-word;
+	max-width:100%;
+	height:auto;
+}
+#carPics{
+	width:100%;
+	height:auto;
+}
+.signature{
+	font-family:Brush Script MT;
+}
+  
+  @media only screen and (max-width: 600px) {
+  #niallLogo.brand-logo{
+	width: 75%;
+	float: right;
+	padding-left: 5%;
+  }
+
+	 #burger.material-icons{
+		 float: left;
+	 }
+	 
+	 #niallPhoto{
+	width:100%;
+    height:auto;
+	margin-bottom: 2%;
+	}
+	
+	
+  }
